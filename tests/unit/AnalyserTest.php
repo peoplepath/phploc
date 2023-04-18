@@ -294,7 +294,7 @@ final class AnalyserTest extends TestCase
         $this->assertSame($cloc, $result['cloc'], $assertString);
     }
 
-    public function issue126Provider()
+    public static function issue126Provider()
     {
         // issue_126_X.php => CLOC
         return [
